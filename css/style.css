@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --orange: #fe6900;
+    --green: #008000;
+    --red: #ff0000;
+    --dark: #1b1b1b;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: var(--orange);
+    padding: 20px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
+ .fa-user, .fa-heart, .fa-bag-shopping{
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+}
