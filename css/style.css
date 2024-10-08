@@ -110,6 +110,21 @@ main{
     background-color: var(--green);
 }
 
+.column .image{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.column:hover{
+    cursor: pointer;
+}
+
+.column:hover .image{ 
+    display: block;
+}
+
 .container-small{
     flex-direction: column;
     align-items: flex-start;
