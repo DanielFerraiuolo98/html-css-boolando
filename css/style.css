@@ -12,10 +12,6 @@
     --dark: #1b1b1b;
 }
 
-.debug{
-    border: 1px solid red;
-}
-
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -138,4 +134,39 @@ footer{
     background-color: var(--dark);
     padding: 20px;
     width: 100%;
+}
+
+.container-footer{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+p{
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.icone{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa-square-twitter,
+.fa-square-facebook,
+.fa-square-instagram,
+.fa-square-pinterest,
+.fa-square-youtube{
+    padding-right: 5px;
+    color: white;
 }
